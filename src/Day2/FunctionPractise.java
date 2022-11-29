@@ -2,21 +2,21 @@ package Day2;
 
 public class FunctionPractise {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 12;
+        int a = 15;
+        int b = 2;
         addition(a,b);
 
-        int c = 90;
-        int d = 80;
+        int c = 80;
+        int d = 70;
         subtraction(c,d);
 
-        int e = 5;
-        int f = 4;
+        int e = 3;
+        int f = 5;
         int result = multiplication(e,f);
         System.out.println(result);
 
         int g = 20;
-        int h = 5;
+        int h = 10;
         int result1 = division(g,h);
         System.out.println(result1);
     }
