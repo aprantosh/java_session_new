@@ -19,8 +19,18 @@ public class FunctionPractise {
         int h = 10;
         int result1 = division(g,h);
         System.out.println(result1);
+
+        float i =70;
+        float j = 100;
+        float result2 = percent(i,j);
+        System.out.println(result2);
     }
 
+    public static float percent(float x, float y) {
+        float percent = x/y*100;
+        //System.out.println(percent);
+        return percent;
+    }
     public static void addition(int x, int y){
         int sum = x + y;
         System.out.println(sum);
