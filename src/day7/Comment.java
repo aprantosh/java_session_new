@@ -1,7 +1,7 @@
 package day7;
 
 /**
- * @author Anish Regmee
+
  * @since jdk 11
  * this is practice session for java 11
  */
