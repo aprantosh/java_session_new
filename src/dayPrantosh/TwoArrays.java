@@ -20,8 +20,10 @@ public class TwoArrays
             //abc.addAll(Arrays.asList(temp1,temp2));
             abc.add(temp1);
             abc.add(temp2);
-            i++;
+          //  i++;
             System.out.println(abc);
+
+      //      abc.removeIf()
     }
 //        Integer[] union = {};
 //        union = abc.toArray(union);

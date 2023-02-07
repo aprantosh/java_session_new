@@ -1,7 +1,7 @@
 package dayPrantosh;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
 
 public class Google {
 // list1 = [1, 2, 3, 4, 5, 6]
@@ -17,27 +17,25 @@ public class Google {
 //
 // k = 3  result = [4, 5, 6, 1]
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
-         StringBuilder abc = new StringBuilder();
+
+        ArrayList<Integer> abc = new ArrayList<>();
+        ArrayList<Integer> xyz = new ArrayList<Integer>();
         // HashSet abc = new HashSet<>();
         int list1[] = {1, 2, 3, 4, 5, 6};
         int list2[] = {3, 1, 1, 2, 4, 5, 6, 1, 11};
-        int counter = list1.length+ list2.length;
-        for(int digit = 0; list1) {
-            abc.append(digit);
+        //int counter = list1.length + list2.length;
+
+        for (int digit: list1){
+            abc.add(digit);
         }
-        for (int digit = 0; list2){
-            abc.append(digit);
+        for( int digit : list2){
+            abc.add(digit);
         }
-        String print = abc;
+
+
+        }
 
 
     }
-
-
-
-
-
-    }
-
