@@ -13,4 +13,9 @@ public class Employee extends Person{
         String description = "i am the employee";
         return description;
     }
+
+    @Override
+    public int compareTo(Person o) {
+        return 0;
+    }
 }

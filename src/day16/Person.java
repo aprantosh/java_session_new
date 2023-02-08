@@ -2,7 +2,7 @@ package day16;
 
 import java.time.LocalDate;
 
-public abstract class Person {
+public abstract class Person implements Comparable<Person> {
 
     private String name;
     private LocalDate hireDate;
